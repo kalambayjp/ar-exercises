@@ -3,15 +3,6 @@ require_relative '../setup'
 puts "Exercise 1"
 puts "----------"
 
-# Your code goes below here ...
-# class Store 
-#   def initialize(n, r, m, w)
-#     @name = n
-#     @annual_revenue = r
-#     @mens_apparel = m
-#     @womens_apparel = w
-#   end
-# end
 
 burnaby = Store.new(name: "Burnaby", annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
 burnaby.save
